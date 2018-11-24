@@ -1,0 +1,15 @@
+filename = Video_Games_Sales_as_at_22_Dec_2016.csv
+M = csvread(filename);
+M = csvread(filename);
+M = 2
+M = csvread(filename);
+filename = Video_Games_Sales_as_at_22_Dec_2016.csv;
+load Video_Games_Sales_as_at_22_Dec_2016.csv
+[p,e_var,r,p_var,y_var] = LinearRegression(Critic_Score,Global_Sales);
+C:/Users/Alan/Downloads/optim-1.5.0.tar.gz
+pkg install -forge optim
+pkg install package_file_name.tar.gz
+pkg install C:/Users/Alan/Downloads/optim-1.5.0.tar.gz
+pkg list
+exit
+# Octave 4.0.0, Sat Apr 22 16:13:18 2017 Eastern Daylight Time <unknown@DESKTOP-B2R7S8V>

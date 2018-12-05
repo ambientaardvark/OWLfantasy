@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.full-screen-image {
+	background-image: url("../Pictures/OWL Grand Finals/1006425770.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	backgound-size: cover;
+}
+
+.background-tint {
+    background-color: #00b2a8;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position:absolute;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    opacity: 0.73;
+}
+
+.landing-title {
+	display: block;
+	position: absolute;
+	
+	z-index: 2;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	width: 100%;
+	
+}
+
+.main-title {
+	top: 80px;
+	font-size: 100px;
+	
+}
+
+.sub-title {
+	top: 250px;
+	font-size: 55px;
+}
